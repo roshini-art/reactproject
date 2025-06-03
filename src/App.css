@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  min-height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 12px;
+  width: 250px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn {
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff4d4d;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.loading {
+  color: #fff;
+  font-style: italic;
+}
+
+.weather-info {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 500px; /* Wider to fit outfit cards */
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.description {
+  text-transform: capitalize;
+  color: #666;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.weather-info p {
+  color: #444;
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.weather-info span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.suggestion {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid #007bff;
+}
+
+.suggestion h3 {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.suggestion p {
+  color: #333;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.outfit-section {
+  margin-top: 20px;
+}
+
+.outfit-section h3 {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.outfit-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.outfit-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  text-align: center;
+}
+
+.outfit-image {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+.outfit-card p {
+  font-size: 0.9rem;
+  color: #333;
+}
+.outfit-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.outfit-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  text-align: center;
+}
+
+.suggestion {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 10px;
+  border: 1px solid #007bff;
+}
